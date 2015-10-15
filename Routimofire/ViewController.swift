@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        ConnectionUser.createUserWith(params: ["YYZ": "Toronto Pearson", "DUB": "Dublin"])
+        ConnectionUser.testUserWithoutParams()
+        ConnectionUser.updateUserWith(name: "King Tail", params: ["YYZ": "Vancouver Pearson", "DUB": "Alaska"])
     }
 
     override func didReceiveMemoryWarning() {

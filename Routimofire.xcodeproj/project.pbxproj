@@ -12,6 +12,8 @@
 		76F69F7B1BD009EE00D54C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F69F791BD009EE00D54C6E /* Main.storyboard */; };
 		76F69F7D1BD009EE00D54C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F69F7C1BD009EE00D54C6E /* Assets.xcassets */; };
 		76F69F801BD009EE00D54C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F69F7E1BD009EE00D54C6E /* LaunchScreen.storyboard */; };
+		76F69F891BD00B1A00D54C6E /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F69F881BD00B1A00D54C6E /* Router.swift */; settings = {ASSET_TAGS = (); }; };
+		76F69F8C1BD00B3400D54C6E /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F69F8B1BD00B3400D54C6E /* Connection.swift */; settings = {ASSET_TAGS = (); }; };
 		E3378E7158232CC34E17EC05 /* Pods_Routimofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BD92961F1FD66BD6913FB5 /* Pods_Routimofire.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,8 @@
 		76F69F7C1BD009EE00D54C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F69F7F1BD009EE00D54C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76F69F811BD009EE00D54C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F69F881BD00B1A00D54C6E /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Router.swift; path = Networking/Router.swift; sourceTree = "<group>"; };
+		76F69F8B1BD00B3400D54C6E /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Networking/Connection.swift; sourceTree = "<group>"; };
 		EFD4F2EC12507C24DE2FAB00 /* Pods-Routimofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Routimofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Routimofire/Pods-Routimofire.release.xcconfig"; sourceTree = "<group>"; };
 		FBB7501E811F1CD557E5A918 /* Pods-Routimofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Routimofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Routimofire/Pods-Routimofire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +82,7 @@
 		76F69F741BD009EE00D54C6E /* Routimofire */ = {
 			isa = PBXGroup;
 			children = (
+				76F69F871BD00AFD00D54C6E /* Networking */,
 				76F69F751BD009EE00D54C6E /* AppDelegate.swift */,
 				76F69F771BD009EE00D54C6E /* ViewController.swift */,
 				76F69F791BD009EE00D54C6E /* Main.storyboard */,
@@ -86,6 +91,15 @@
 				76F69F811BD009EE00D54C6E /* Info.plist */,
 			);
 			path = Routimofire;
+			sourceTree = "<group>";
+		};
+		76F69F871BD00AFD00D54C6E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				76F69F881BD00B1A00D54C6E /* Router.swift */,
+				76F69F8B1BD00B3400D54C6E /* Connection.swift */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				76F69F781BD009EE00D54C6E /* ViewController.swift in Sources */,
+				76F69F891BD00B1A00D54C6E /* Router.swift in Sources */,
 				76F69F761BD009EE00D54C6E /* AppDelegate.swift in Sources */,
+				76F69F8C1BD00B3400D54C6E /* Connection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
