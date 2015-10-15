@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76F69F761BD009EE00D54C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F69F751BD009EE00D54C6E /* AppDelegate.swift */; };
+		76F69F781BD009EE00D54C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F69F771BD009EE00D54C6E /* ViewController.swift */; };
+		76F69F7B1BD009EE00D54C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F69F791BD009EE00D54C6E /* Main.storyboard */; };
+		76F69F7D1BD009EE00D54C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F69F7C1BD009EE00D54C6E /* Assets.xcassets */; };
+		76F69F801BD009EE00D54C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F69F7E1BD009EE00D54C6E /* LaunchScreen.storyboard */; };
+		E3378E7158232CC34E17EC05 /* Pods_Routimofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BD92961F1FD66BD6913FB5 /* Pods_Routimofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14BD92961F1FD66BD6913FB5 /* Pods_Routimofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Routimofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F69F721BD009EE00D54C6E /* Routimofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Routimofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F69F751BD009EE00D54C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76F69F771BD009EE00D54C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76F69F7A1BD009EE00D54C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F69F7C1BD009EE00D54C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F69F7F1BD009EE00D54C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76F69F811BD009EE00D54C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD4F2EC12507C24DE2FAB00 /* Pods-Routimofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Routimofire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Routimofire/Pods-Routimofire.release.xcconfig"; sourceTree = "<group>"; };
+		FBB7501E811F1CD557E5A918 /* Pods-Routimofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Routimofire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Routimofire/Pods-Routimofire.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F69F6F1BD009EE00D54C6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3378E7158232CC34E17EC05 /* Pods_Routimofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3932C421A61331035FE716BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7501E811F1CD557E5A918 /* Pods-Routimofire.debug.xcconfig */,
+				EFD4F2EC12507C24DE2FAB00 /* Pods-Routimofire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		704C0E0DA869A0446A3B8247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14BD92961F1FD66BD6913FB5 /* Pods_Routimofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76F69F691BD009ED00D54C6E = {
+			isa = PBXGroup;
+			children = (
+				76F69F741BD009EE00D54C6E /* Routimofire */,
+				76F69F731BD009EE00D54C6E /* Products */,
+				3932C421A61331035FE716BB /* Pods */,
+				704C0E0DA869A0446A3B8247 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76F69F731BD009EE00D54C6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F69F721BD009EE00D54C6E /* Routimofire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F69F741BD009EE00D54C6E /* Routimofire */ = {
+			isa = PBXGroup;
+			children = (
+				76F69F751BD009EE00D54C6E /* AppDelegate.swift */,
+				76F69F771BD009EE00D54C6E /* ViewController.swift */,
+				76F69F791BD009EE00D54C6E /* Main.storyboard */,
+				76F69F7C1BD009EE00D54C6E /* Assets.xcassets */,
+				76F69F7E1BD009EE00D54C6E /* LaunchScreen.storyboard */,
+				76F69F811BD009EE00D54C6E /* Info.plist */,
+			);
+			path = Routimofire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F69F711BD009EE00D54C6E /* Routimofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F69F841BD009EE00D54C6E /* Build configuration list for PBXNativeTarget "Routimofire" */;
+			buildPhases = (
+				F2927AB52F273C60BF8B9BCA /* Check Pods Manifest.lock */,
+				76F69F6E1BD009EE00D54C6E /* Sources */,
+				76F69F6F1BD009EE00D54C6E /* Frameworks */,
+				76F69F701BD009EE00D54C6E /* Resources */,
+				1FD3B930E0D6FA3E5A1B1B14 /* Embed Pods Frameworks */,
+				D8A805E3713C0E9B9F02F5FE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Routimofire;
+			productName = Routimofire;
+			productReference = 76F69F721BD009EE00D54C6E /* Routimofire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F69F6A1BD009ED00D54C6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iTSangar;
+				TargetAttributes = {
+					76F69F711BD009EE00D54C6E = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 76F69F6D1BD009ED00D54C6E /* Build configuration list for PBXProject "Routimofire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F69F691BD009ED00D54C6E;
+			productRefGroup = 76F69F731BD009EE00D54C6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F69F711BD009EE00D54C6E /* Routimofire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F69F701BD009EE00D54C6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F69F801BD009EE00D54C6E /* LaunchScreen.storyboard in Resources */,
+				76F69F7D1BD009EE00D54C6E /* Assets.xcassets in Resources */,
+				76F69F7B1BD009EE00D54C6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD3B930E0D6FA3E5A1B1B14 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Routimofire/Pods-Routimofire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A805E3713C0E9B9F02F5FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Routimofire/Pods-Routimofire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2927AB52F273C60BF8B9BCA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F69F6E1BD009EE00D54C6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F69F781BD009EE00D54C6E /* ViewController.swift in Sources */,
+				76F69F761BD009EE00D54C6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76F69F791BD009EE00D54C6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F69F7A1BD009EE00D54C6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F69F7E1BD009EE00D54C6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F69F7F1BD009EE00D54C6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F69F821BD009EE00D54C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76F69F831BD009EE00D54C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F69F851BD009EE00D54C6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB7501E811F1CD557E5A918 /* Pods-Routimofire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Routimofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = learn.Routimofire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76F69F861BD009EE00D54C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD4F2EC12507C24DE2FAB00 /* Pods-Routimofire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Routimofire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = learn.Routimofire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F69F6D1BD009ED00D54C6E /* Build configuration list for PBXProject "Routimofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F69F821BD009EE00D54C6E /* Debug */,
+				76F69F831BD009EE00D54C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F69F841BD009EE00D54C6E /* Build configuration list for PBXNativeTarget "Routimofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F69F851BD009EE00D54C6E /* Debug */,
+				76F69F861BD009EE00D54C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F69F6A1BD009ED00D54C6E /* Project object */;
+}

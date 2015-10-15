@@ -1,0 +1,6 @@
+framework module Pods_Routimofire {
+  umbrella header "Pods-Routimofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
