@@ -11,7 +11,7 @@ import Alamofire
 
 class ConnectionUser {
     
-    class func createUserWith(params params: [String : AnyObject]) {
+    class func create(withParams params: [String : AnyObject]) {
         Alamofire.request(RouterUser.CreateUser(params))
             .responseJSON(completionHandler: {
                 response in
@@ -24,7 +24,7 @@ class ConnectionUser {
             })
     }
     
-    class func testUserWithoutParams() {
+    class func test() {
         Alamofire.request(RouterUser.TestUser)
             .responseJSON(completionHandler: {
                 response in
@@ -37,8 +37,8 @@ class ConnectionUser {
             })
     }
     
-    class func updateUserWith(name name: String, params: [String : AnyObject]) {
-        Alamofire.request(RouterUser.UpdateUser(name, params))
+    class func update(username username: String, withParams params: [String : AnyObject]) {
+        Alamofire.request(RouterUser.UpdateUser(username, params))
             .responseJSON(completionHandler: {
                 response in
                 switch response.result {
@@ -46,6 +46,19 @@ class ConnectionUser {
                     print(JSON)
                 case .Failure(let error):
                     print(error)
+                }
+            })
+    }
+    
+    class func read(username username: String, completion:(success: AnyObject?, error: String?) -> Void) {
+        Alamofire.request(RouterUser.ReadUser(username))
+            .responseJSON(completionHandler: {
+                response in
+                switch response.result {
+                case .Success(let JSON):
+                    completion(success: JSON, error: nil)
+                case .Failure(let error):
+                    completion(success: nil, error: (error as NSError).description)
                 }
             })
     }
